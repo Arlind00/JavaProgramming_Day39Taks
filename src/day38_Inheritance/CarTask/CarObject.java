@@ -38,6 +38,12 @@ public class CarObject {
 
 
 
+        toyota.start();
+        tesla.start();
+        bmw.start();
+
+
+
     }
 }
 
