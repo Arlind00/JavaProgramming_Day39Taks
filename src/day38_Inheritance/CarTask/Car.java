@@ -28,6 +28,17 @@ public class Car {
         System.out.println(brand + " " + model + " is driving");
     }
 
+
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
+    }
 }
 
 /*
