@@ -1,4 +1,4 @@
-package day38_Inheritance.Shapes;
+package day38_Inheritance.Shapes_Task;
 
 public class ShapesObject {
 
