@@ -3,7 +3,7 @@ package day38_Inheritance.Shapes_Task;
 public class Shapes {
 
 
-    private String name;
+    public String name;        // more secure
 
 
 

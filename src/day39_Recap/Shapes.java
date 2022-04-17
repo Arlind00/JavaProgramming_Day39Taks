@@ -1,4 +1,4 @@
 package day39_Recap;
 
-public class SHapes {
+public class Shapes {
 }
