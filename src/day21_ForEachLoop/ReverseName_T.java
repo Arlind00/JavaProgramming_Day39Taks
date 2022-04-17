@@ -4,6 +4,8 @@ public class ReverseName_T {
 
     public static void main(String[] args) {
 
+
+
         String[] names = {"Harry Potter", "Alastor Mudy", "Albus Dumbledore", "Minerva McGonigall", "Rubeus Hagrid",
                 "Gandalf Grey", "Sam Gamgie", "Tomb Raider", "Saruman Wise", "Fatos Nano"};
 
