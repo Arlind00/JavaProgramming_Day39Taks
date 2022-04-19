@@ -1,4 +1,4 @@
-package day39_Recap;
+package day39_Recap.ShapeTask;
 
 public class Shape {
 

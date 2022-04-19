@@ -1,4 +1,6 @@
-package day39_Recap;
+package day39_Recap.ShapeTask;
+
+import day39_Recap.ShapeTask.Shape;
 
 public class Square extends Shape {
 
