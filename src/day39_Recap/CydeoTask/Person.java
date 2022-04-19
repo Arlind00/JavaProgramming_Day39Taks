@@ -18,7 +18,6 @@ public class Person {
 
 
 
-
     public String getName() {
         return name;
     }
@@ -56,6 +55,7 @@ public class Person {
         }
         this.gender = gender;
     }
+
 
     public String toString() {
         return "Person{" +
