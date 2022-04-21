@@ -7,11 +7,14 @@ public class Student extends Person {
     private int studentId;
     private String fieldOfStudy;
 
+
+
     public Student(String name, int age, char gender, int studentId, String fieldOfStudy) {
         super(name, age, gender);
         setStudentId(studentId);
         setFieldOfStudy(fieldOfStudy);
     }
+
 
 
     public int getStudentId() {
@@ -42,7 +45,7 @@ public class Student extends Person {
 
 
     public void study(){
-        System.out.println("Student is studying");
+        System.out.println("Student: " + getName() + " is studying");
     }
 
     public String toString() {
@@ -51,6 +54,7 @@ public class Student extends Person {
                 ", fieldOfStudy= " + fieldOfStudy   +
                 '}';
     }
+
 }
 
 
