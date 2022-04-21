@@ -2,6 +2,7 @@ package day39_Recap.AnimalTask_01;
 
 public class Animal {
 
+
     private String name, breed;
     private char gender;
     private int age;

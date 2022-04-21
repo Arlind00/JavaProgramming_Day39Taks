@@ -4,7 +4,6 @@ package day39_Recap.AnimalTask_01;
 public class FriendlyAnimals extends Animal{
 
 
-
     private boolean isWild;
     private boolean isFriendly;
     private boolean isPlayable;
@@ -16,7 +15,6 @@ public class FriendlyAnimals extends Animal{
         this.isFriendly = isFriendly;
         this.isPlayable = isPlayable;
         this.isFriendly = isFriendly;
-
     }
 
 
