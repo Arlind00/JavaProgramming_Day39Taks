@@ -52,6 +52,7 @@ public class Animal {
     }
 
     public void setGender(char gender) {
+        if( !( gender == 'M' || gender == 'F' ))
         this.gender = gender;
     }
 
