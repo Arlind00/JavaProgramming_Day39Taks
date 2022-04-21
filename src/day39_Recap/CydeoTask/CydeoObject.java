@@ -46,7 +46,7 @@ public class CydeoObject {
         teacher1.work();
         teacher1.setName("isac newton");
         teacher1.setAge(64);
-        System.out.println("teacher1 = " + teacher1);
+        System.out.println(teacher1.getAge());
 
 
 
