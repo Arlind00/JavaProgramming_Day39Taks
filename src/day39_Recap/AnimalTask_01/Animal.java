@@ -62,6 +62,10 @@ public class Animal {
     }
 
     public void setAge(int age) {
+        if(age <= 0){
+            System.err.println("Invalid age entered...");
+            System.exit(1);
+        }
         this.age = age;
     }
 
@@ -89,10 +93,35 @@ public class Animal {
 
 
 
+    public void eat(){
+        System.out.println("Animal is eating");
+    }
+
+    public void drink(){
+        System.out.println("Animal is drinking");
+    }
+
+    public void sleep(){
+        System.out.println("Animal is sleeping");
+    }
+
+    public void move(){
+        System.out.println("Animal si moving");
+    }
+
+
+    public String toString() {
+        return " Animal {" +
+                " name= " + name  +
+                ", breed= " + breed  +
+                ", gender= " + gender +
+                ", age= " + age +
+                ", size= " + size  +
+                ", color= " + color  +
+                '}';
+    }
+
 }
-
-
-
 
 
 
