@@ -15,8 +15,9 @@ public class Developer extends Employee {
     }
 
     public void fixingBugs(){
-        System.out.println("Developers fix bugs found by TESTERS");
+        System.out.println("Developer: " + getName() + " fix bugs found by TESTERS");
     }
+
 }
 
 

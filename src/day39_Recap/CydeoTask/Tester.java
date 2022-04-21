@@ -15,7 +15,7 @@ public class Tester extends Employee {
     }
 
     public void createTicket(){
-        System.out.println("TESTER checks software for Bugs and if there are any, creates a ticket for them");
+        System.out.println("TESTER: " + getName() + " checks software for Bugs and if there are any, creates a ticket for them");
     }
 
 
