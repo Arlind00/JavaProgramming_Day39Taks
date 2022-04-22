@@ -1,5 +1,7 @@
 package day41_Exceptions;
 
+import day33_Statics.Student;
+
 public class Checked_vs_Unchecked {
 
 
@@ -26,10 +28,10 @@ public class Checked_vs_Unchecked {
 
         final String str = "Wooden Spoon";
         // str = null;
-        //   System.out.println( str.toUpperCase() );
+        // System.out.println( str.toUpperCase() );
 
 
-        String str2 = ""; // object != null
+        String str2 = "";           // object != null
         System.out.println(str2.isEmpty());
 
 
@@ -37,9 +39,7 @@ public class Checked_vs_Unchecked {
         // checked Exception:
 
         System.out.println("Hello");
-
         //   Thread.sleep(3000); // checked
-
         System.out.println("Cydeo");
 
 
