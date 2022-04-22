@@ -1,6 +1,6 @@
 package day40_FinalKeyword;
 
-public class Dog extends Animal{
+public final class Dog extends Animal{
 
 
 
