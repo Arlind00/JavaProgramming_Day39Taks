@@ -17,6 +17,7 @@ public abstract class Car {
             throw new RuntimeException("Invalid Year: "+year);
         }
         this.year = year;
+
         setPrice(price);
     }
 
