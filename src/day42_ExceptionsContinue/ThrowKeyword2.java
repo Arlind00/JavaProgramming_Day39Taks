@@ -9,12 +9,11 @@ public class ThrowKeyword2 {
 
         throw new NoSuchElementException("No such Element");
 
-        //    throw new InterruptedException();
-
+        //  throw new InterruptedException();
 
         //  System.out.println("hello world");
 
-        // throw new Rectangle(5,7);
+        //  throw new Rectangle(5,7);
 
 
 
