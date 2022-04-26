@@ -9,10 +9,11 @@ public class Throw_vs_Throws {
         System.out.println("Enter your score:");
         int score = new Scanner(System.in).nextInt();
 
+
+
         if(score < 0 || score > 100){
             throw new RuntimeException("Invalid score: "+score); // exit(1)
         }
-
 
         if(score >= 90){
             System.out.println("A");
