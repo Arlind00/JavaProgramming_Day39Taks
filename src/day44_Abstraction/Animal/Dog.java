@@ -1,6 +1,6 @@
 package day44_Abstraction.Animal;
 
-public class Dog extends Animal {
+public final class Dog extends Animal {
 
 
 
