@@ -1,6 +1,6 @@
 package day44_Abstraction.Animal;
 
-public final class Dog extends Animal {
+public final class Dog extends Animal implements Playable {
 
 
 
@@ -18,6 +18,6 @@ public final class Dog extends Animal {
     }
 
     public void play(){
-        System.out.println(getName() +" is playing with ball");
+        System.out.println(getName() + "is playing with ball");
     }
 }

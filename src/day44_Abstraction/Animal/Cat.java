@@ -1,6 +1,6 @@
 package day44_Abstraction.Animal;
 
-public final class Cat extends Animal{
+public final class Cat extends Animal implements Playable {
 
 
 
@@ -14,6 +14,10 @@ public final class Cat extends Animal{
 
     public void meow(){
         System.out.println(getName() + " is Meowing");
+    }
+
+    public void play(){
+        System.out.println(getName() + "is playing with ball");
     }
 
 }
