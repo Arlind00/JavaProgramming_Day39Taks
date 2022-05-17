@@ -20,10 +20,9 @@ public abstract class Shape {
 
 
     public String toString() {
-        return getClass().getSimpleName()+ "{" +
+        return
                 "name='" + name + '\'' +
                 " area = " + area()   +
-                " perimeter = " + perimeter()  +
-                '}';
+                " perimeter = " + perimeter() ;
     }
 }
