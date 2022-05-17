@@ -1,7 +1,7 @@
 package day45_Abstraction.Shape;
 
 
-public class Cube extends Shape {
+public class Cube extends Shape implements Volume {
 
 
     private double edge;
@@ -32,11 +32,19 @@ public class Cube extends Shape {
         return (12 * edge);
     }
 
+    public double volume() {
+        return (edge * edge * edge);
+    }
+
 
     public String toString() {
         return " Cube {" +
                 super.toString() +
                 " edge= " + edge +
+                " volume = " + volume() +
                 '}';
     }
+
+
+
 }
