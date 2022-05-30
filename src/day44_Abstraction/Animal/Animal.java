@@ -3,7 +3,8 @@ package day44_Abstraction.Animal;
 public abstract class Animal {
 
 
-        private String name;
+    public Object meow;
+    private String name;
         private final String breed;
         private final char gender;
         private int age;
@@ -97,7 +98,9 @@ public abstract class Animal {
         }
 
 
+    public void meow() {
     }
+}
 
 /*
 Animal Task:
