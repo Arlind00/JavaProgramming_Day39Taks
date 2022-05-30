@@ -11,15 +11,16 @@ public class EncapsulationReview {
         this.publishDate = publishDate;
     }
 
+
     public String getBookTitle() {
-        if(bookTitle == null){
+        if (bookTitle == null) {
             return "";
         }
         return bookTitle;
     }
 
     public void setBookTitle(String bookTitle) {
-        if(bookTitle == null || bookTitle.isEmpty()){
+        if (bookTitle == null || bookTitle.isEmpty()) {
             throw new RuntimeException("Invalid Data");
         }
         this.bookTitle = bookTitle;
