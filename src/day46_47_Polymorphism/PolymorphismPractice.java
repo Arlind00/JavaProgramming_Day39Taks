@@ -45,7 +45,7 @@ public class PolymorphismPractice {
         // 1.3 Write a program that can display the car that has the lowest mileage
 
 
-        Car carWithHighestMileage = cars[0],
+        Car carWithHighestMileage = cars[0],            // we assume that first car has the highest mileage
                 carWithLowestMileage =  cars[0];
 
 
@@ -63,12 +63,7 @@ public class PolymorphismPractice {
         System.out.println(carWithHighestMileage);
         System.out.println(carWithLowestMileage);
 
-
-
-
     }
-
-
 }
 
 
