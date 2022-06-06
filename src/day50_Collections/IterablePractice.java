@@ -63,7 +63,7 @@ public class IterablePractice {
 
         List<Integer> list4 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
 
-        list4.removeIf( each ->  each < 4 );
+        list4.removeIf( each ->  each < 4 );            //easiest way to remove in Collection (creates a for loop and iterates according to the condition that we give)
 
         System.out.println(list4);
 
