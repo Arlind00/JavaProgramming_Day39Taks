@@ -84,9 +84,9 @@ public class SetPractice {
         Set<String> names = new LinkedHashSet<>();
         names.addAll(Arrays.asList("Ahmet", "Ahmet", "John", "James", "Breanna", "Shay", "Ahmet"));
 
-        System.out.println( names.toArray(new String[0])[2] );
+        System.out.println( names.toArray(new String[0])[2] );      // converts set to Array in order to retrieve specific element
 
-        System.out.println( new ArrayList<>(names).get(4)  );
+        System.out.println( new ArrayList<>(names).get(4)  );       // converts set to ArrayList in order to retrieve specific element
 
 
         for(String each : names ){
